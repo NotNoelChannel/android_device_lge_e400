@@ -27,6 +27,8 @@ jobs:
       run: |
         mkdir ~/TWRP
         cd ~/TWRP
+        git config --global user.name "NotNoelChannel"
+        git config --global user.email "notnoel12345678@gmail.com"  
         mkdir ~/.bin
         curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo
         python3 ~/.bin/repo init --depth=1 -u https://github.com/LineageOS/android -b cm-13.0
@@ -50,8 +52,6 @@ jobs:
         git clone https://github.com/TeamVee/android_hardware_qcom_gps -b cm-13.0 ~/TWRP/hardware/qcom/gps
         git clone https://github.com/omnirom/android_bootable_recovery -b cm-13.0 ~/TWRP/bootable/recovery-omni 
         git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8 -b android-5.1.1_r10 /opt/toolchain/arm-eabi-4.8
-        git config --global user.name "NotNoelChannel"
-        git config --global user.email "g@g.com" 
         source build/envsetup.sh
         export ALLOW_MISSING_DEPENDENCIES=true
         export LC_ALL=C
