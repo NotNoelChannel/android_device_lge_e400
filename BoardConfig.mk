@@ -15,7 +15,7 @@
 # limitations under the License.
 
 # Define device specific variables to msm7x27a-common
-LGE_MSM7X27A_DEVICE := v1
+LGE_MSM7X27A_DEVICE := e0
 LGE_MSM7X27A_GENERATION := 2
 BOARD_VENDOR_PLATFORM := v1
 
