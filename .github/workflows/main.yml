@@ -35,7 +35,6 @@ jobs:
         git clone https://github.com/NotNoelChannel/lge-kernel-lproj -b cm-13.0 ~/TWRP/kernel/lge/msm7x27a-common
         git clone https://github.com/TeamVee/android_vendor_lge -b cm-13.0 ~/TWRP/vendor/lge
         git clone https://github.com/TeamVee/android_external_stlport -b cm-13.0 ~/TWRP/external/stlport
-        git clone https://github.com/TeamVee/android_external_busybox -b cm-13.0 ~/TWRP/external/busybox
         git clone https://github.com/TeamVee/android_hardware_qcom_media-caf_msm7x27a -b cm-13.0 ~/TWRP/hardware/qcom/media-caf/msm7x27a
         git clone https://github.com/TeamVee/android_hardware_qcom_media-caf_msm7x27a -b cm-13.0 ~/TWRP/hardware/qcom/display-caf/msm7x27a
         python3 ~/.bin/repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
