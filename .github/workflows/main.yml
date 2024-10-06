@@ -50,7 +50,7 @@ jobs:
         git clone https://github.com/TeamVee/android_hardware_ril-legacy -b cm-13.0 ~/TWRP/hardware/ril-legacy
         rm -rf ~/TWRP/hardware/qcom/gps
         git clone https://github.com/TeamVee/android_hardware_qcom_gps -b cm-13.0 ~/TWRP/hardware/qcom/gps
-        git clone https://github.com/omnirom/android_bootable_recovery -b cm-13.0 ~/TWRP/bootable/recovery-omni 
+        git clone https://github.com/omnirom/android_bootable_recovery -b android-6.0 ~/TWRP/bootable/recovery-omni 
         git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8 -b android-5.1.1_r10 /opt/toolchain/arm-eabi-4.8
         source build/envsetup.sh
         export ALLOW_MISSING_DEPENDENCIES=true
