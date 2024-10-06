@@ -24,13 +24,16 @@ include device/lge/msm7x27a-common/BoardConfigCommon.mk
 include vendor/lge/v1/BoardConfigVendor.mk
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_e0_defconfig
+TARGET_KERNEL_CONFIG := recovery_e0_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 8388608
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 8388608
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 392167424
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 164626432
+
+BOARD_CUSTOM_BOOTIMG_MK := device/lge/e400/mkbootimg.mk
+BOARD_CANT_BUILD_RECOVERY_FROM_BOOT_PATCH := true
 
 # Recovery
 DEVICE_RESOLUTION := 320x240
