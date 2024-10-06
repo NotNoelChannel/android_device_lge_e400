@@ -42,8 +42,11 @@ jobs:
         export PATH="$HOME/.jdk_7/java-se-7u75-ri/bin:$PATH"
         export JAVA_HOME="$HOME/.jdk_7/java-se-7u75-ri"
         cd ~/TWRP
+        git config --global user.name "NotNoelChannel"
+        git config --global user.email "g@g.com"
         git clone https://github.com/TeamVee/android_hardware_ril-legacy -b cm-13.0 ~/TWRP/hardware/ril-legacy
         rm -rf ~/TWRP/hardware/qcom/gps
+        rm -rf ~/TWRP/bootable/recovery
         git clone https://github.com/TeamVee/android_hardware_qcom_gps -b cm-13.0 ~/TWRP/hardware/qcom/gps
         git clone https://github.com/TeamVee/android_external_stlport -b cm-13.0 ~/TWRP/external/stlport
         git clone https://github.com/TeamVee/android_external_busybox -b cm-13.0 ~/TWRP/external/busybox
