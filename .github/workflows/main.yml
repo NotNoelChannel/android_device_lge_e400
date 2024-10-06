@@ -30,7 +30,7 @@ jobs:
         mkdir ~/.bin
         curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo
         python3 ~/.bin/repo init --depth=1 -u https://github.com/LineageOS/android -b cm-13.0
-        git clone https://github.com/NotNoelChannel/android_device_lge_e400 -b cm-13.0 ~/TWRP/device/lge/e400
+        git clone https://github.com/NotNoelChannel/android_device_lge_e400 -b recovery ~/TWRP/device/lge/e400
         git clone https://github.com/NotNoelChannel/android_device_lge_msm7x27a-common -b cm-13.0 ~/TWRP/device/lge/msm7x27a-common
         git clone https://github.com/NotNoelChannel/lge-kernel-lproj -b cm-13.0 ~/TWRP/kernel/lge/msm7x27a-common
         git clone https://github.com/TeamVee/android_vendor_lge -b cm-13.0 ~/TWRP/vendor/lge
