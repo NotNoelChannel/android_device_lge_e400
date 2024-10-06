@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-add_lunch_combo lineage_e0-userdebug
-add_lunch_combo lineage_e0-eng
-add_lunch_combo full_e0-userdebug
-add_lunch_combo full_e0-eng
+add_lunch_combo lineage_e400-userdebug
+add_lunch_combo lineage_e400-eng
+add_lunch_combo full_e400-userdebug
+add_lunch_combo full_e400-eng
