@@ -59,7 +59,7 @@ jobs:
         lunch lineage_e400-eng
         make -j$(nproc --all) recoveryimage
     - name: Uploading Lineage Recovery builds
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: lineage
         path: /home/runner/TWRP/out/target/product/e400/recovery.*
