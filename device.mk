@@ -32,10 +32,8 @@ TARGET_SCREEN_HEIGHT := 320
 TARGET_SCREEN_WIDTH := 240
 
 PRODUCT_COPY_FILES += \
-    device/lge/v1/rootdir/root/init.v1ds.sh:root/init.v1ds.sh
-
-PRODUCT_COPY_FILES += \
-    device/lge/v1/rootdir/system/usr/keylayout/mms100s_ts.kl:system/usr/keylayout/mms100s_ts.kl
+    $(LOCAL_PATH)/rootdir/system/usr/keylayout/touch_mcs8000.kl:system/usr/keylayout/touch_mcs8000.idc \
+    $(LOCAL_PATH)/rootdir/system/usr/keylayout/e0_keypad.kl:system/usr/keylayout/e0_keypad.kl \
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \

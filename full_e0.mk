@@ -17,11 +17,11 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/lge/v1/device.mk)
+$(call inherit-product, device/lge/e0/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := full_v1
-PRODUCT_DEVICE := v1
+PRODUCT_NAME := full_e0
+PRODUCT_DEVICE := e0
 PRODUCT_BRAND := LGE
-PRODUCT_MODEL := v1
+PRODUCT_MODEL := e0
 PRODUCT_MANUFACTURER := LGE

@@ -18,8 +18,8 @@
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/lge/v1/full_v1.mk)
+$(call inherit-product, device/lge/e0/full_v1.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_v1
-PRODUCT_RELEASE_NAME := L1II
+PRODUCT_NAME := lineage_e0
+PRODUCT_RELEASE_NAME := L3

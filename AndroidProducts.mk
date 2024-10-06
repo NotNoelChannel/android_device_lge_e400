@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_v1.mk
+    $(LOCAL_DIR)/full_e0.mk

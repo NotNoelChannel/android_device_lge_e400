@@ -13,6 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifeq ($(TARGET_DEVICE),v1)
+ifeq ($(TARGET_DEVICE),e0)
 include $(call all-makefiles-under,$(call my-dir))
 endif
