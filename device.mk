@@ -21,7 +21,7 @@ LGE_MSM7X27A_DEVICE := v1
 LGE_MSM7X27A_GENERATION := 2
 BOARD_VENDOR_PLATFORM := v1
 
-$(call inherit-product, device/lge/msm7x27a-common/msm7x27a-common.mk)
+$(call inherit-product, device/lge/e0-common/e0-common.mk)
 $(call inherit-product-if-exists, vendor/lge/v1/v1-vendor.mk)
 
 PRODUCT_AAPT_CONFIG := normal
