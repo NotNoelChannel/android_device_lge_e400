@@ -24,7 +24,7 @@ include device/lge/msm7x27a-common/BoardConfigCommon.mk
 include vendor/lge/v1/BoardConfigVendor.mk
 
 # Kernel
-TARGET_KERNEL_CONFIG := recovery_e0_defconfig
+TARGET_KERNEL_CONFIG := e0_android_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 8388608
