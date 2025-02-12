@@ -60,7 +60,7 @@ jobs:
         export KBUILD_BUILD_HOST=unlegacy-devices
         export CROSS_COMPILE=/opt/toolchain/arm-eabi-4.8/bin/arm-eabi-
         lunch lineage_e400-eng
-        make -j$(nproc --all) recoveryimage
+        make -j$(nproc --all) otapackage
     - name: Uploading Lineage Recovery builds
       uses: actions/upload-artifact@v4
       with:
